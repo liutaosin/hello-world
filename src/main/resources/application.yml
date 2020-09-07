@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/ittest?useUnicode=true&amp;characeterEncoding=utf-8&amp;serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
